@@ -1,0 +1,150 @@
+body { background-color: #FFFFFF;
+      background-image: url(background.gif);
+      color: #330000;
+      font-family: times new roman; 
+}
+#wrapper { width: 80%;
+           margin-right: auto;
+		   margin-left: auto;
+		   background-color: #ffffff;
+		   min-width: 700px;
+		   max-width: 1024px;
+}
+header { background-color: #FFFFFF;
+       color:#0C1C5C00;
+       background-image: url(logo2.jpg);
+	 
+	   background-position: center;
+	   background-repeat: no-repeat;
+	   line-height: 210px;
+	   box-shadow: 3px 3px 3px #333333;
+}
+h1 { margin-top: 25; 
+	 text-align: center;
+    white-space: nowrap;
+	
+}
+h2 { text-transform: uppercase;
+     background-color: #0C1C5C;
+     color: #FFFFFF;
+     font-size: 1.2em;
+     border-bottom: 1px solid #000000;
+     padding: 5px 5px 5px 5px;
+     margin-right: 20px;
+     clear: left; }
+h3 { text-transform: uppercase;
+     background-color: #0C1C5C;
+     color: #FFFFFF;
+     font-size: 1.0em;
+     border-bottom: 1px solid #000000;
+     padding: 5px 5px 5px 5px;
+     margin-right: 20px;
+     clear: left; }
+.topnav {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom-color:#EE6DA9;
+}
+
+.topnav a {
+  float: left;
+  color:#0C1C5C;
+  text-align: center;
+  padding: 18px 18px 10px;
+  text-decoration: none;
+  font-size: 17px;
+  padding-left:25px;
+}
+
+.topnav a:hover {
+  background-color: #F9F9F9;
+  color:#EE6DA9;
+  border-bottom-color: #EE6DA9;
+}
+
+.topnav a.active {
+  background-color: #DAB542;
+  color:#EE6DA9;
+}
+main { padding: 10px 20px 30px 20px;
+       margin-left: 150px;
+	   background-color: #FFFFFF;
+	   color: #0C1C5C;    
+}
+.floatright { float: right; 
+              padding-left: 20px;}
+.floatleft { float: left; 
+             padding-right: 20px;
+			 padding-bottom: 20px;
+}
+
+.details { padding-left: 20%;
+           padding-right: 20%;
+		   overflow: auto;
+}
+#issue {height:200px;
+width:785px;
+}
+
+#utahdec7 { height: 250px;
+			width:700px;
+			}
+			
+#mySubmit { background-color:#0C1C5C;
+			color:#FFFFFF;
+			border-color:#0C1C5C;
+}
+p {
+	color:#0C1C5C;
+
+}
+#banner {
+	width:775px;
+	padding-left:75px;
+	padding-bottom:0px;
+}
+#ol {
+	color:#0C1C5C;
+}
+
+#sig {
+	position:center;
+	background-color:FFFFFF00;
+	width: 400px;
+	height: 100px
+}
+#climate {
+	height:185px;
+	width:235px;
+}
+#heading {
+	color:#F9F9F9;
+	background-color:#0C1C5C;
+	text-align:center;
+	padding-bottom:25px;
+	padding-top:25px;
+	font-size: 1.4em;
+	
+}
+#wicdh {
+	position:center;
+	padding-left:200px;
+}
+img { border-style: none; 
+margin-bottom: 20px;}
+footer { background-color: #ffffff;
+       color: #000000;
+	   font-size: .4em;
+	   font-style: italic;
+	   text-align: center; 
+	   padding: 2px;
+	   clear: both;
+}
+footer a:link { color: #ffffcc; }
+footer a:visited { color: #f2eab7; }
+footer a:hover { color: #330000; }
+header, main, nav, footer { display: block; }
+
